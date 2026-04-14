@@ -19,7 +19,7 @@ days.forEach(function(day) {
         if (!day.classList.contains('clicked')) {
             day.classList.add('clicked');
             dayCount++;
-            calculatedCost()
+            calculatedCost();
         }
     });
 });
